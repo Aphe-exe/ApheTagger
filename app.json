@@ -1,0 +1,22 @@
+{
+  "name": "Aphe Tagger Bot",
+  "logo":"https://telegra.ph/aphesup-08-28",
+  "description": "Lounge tagger bot sıze ucretsız uyelerınızı etıketleyen bı bottur.",
+  "env": {
+    "TOKEN": {
+      "description": "bot token girin.",
+      "value": ""
+    },
+    "APP_ID": {
+      "description": "@otomytelegrambot dan api hash api id alınız.",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "@otomytelegrambot dan api hash api id alınız.",
+      "value": ""
+    }
+  },
+  "buildpacks": [{
+    "url": "https://github.com/heroku/heroku-buildpack-python.git"
+  }]
+}
